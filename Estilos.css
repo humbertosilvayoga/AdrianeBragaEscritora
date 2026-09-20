@@ -1,0 +1,156 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	background: #f8f3ee;
+	color: #2d1f1b;
+}
+header {
+	background: linear-gradient(135deg, #f5d9d0, #e3b49b);
+	padding: 40px 20px;
+	text-align: center;
+}
+h1 {
+	margin: 0;
+	font-size: 2.5rem;
+}
+.subtitulo {
+	margin-top: 8px;
+	font-size: 1.1rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+main {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 40px 20px 60px;
+}
+.apresentacao {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.apresentacao1 {
+	display: flex;
+	gap: 60px;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.foto {
+	width: min(100%, 260px);
+	border-radius: 18px;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+.foto1 {
+	width: min(100%, 520px);
+	border-radius: 18px;
+	box-shadow: 0 25px 10px rgba(0,0,0,0.15);
+}
+
+.biografia {
+	flex: 1 1 420px;
+}
+
+.biografia1 {
+	flex: 1 1 320px;
+}
+
+.biografia h2 {
+	margin-top: 0;
+	font-size: 2rem;
+}
+.biografia p {
+	font-size: 1.06rem;
+	line-height: 1.5;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  background-color: #7b1e3a;
+}
+
+.menu a {
+  flex: 1;
+  padding: 10px 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  border-right: 10px solid rgba(255, 255, 255, 0.35);
+}
+
+.menu a:last-child {
+  border-right: none;
+}
+
+.menu a:hover {
+  background-color: #a83255;
+}
+
+.linha-separadora {
+  border: none;
+  height: 2px;
+  background-color: #7b1e3a;
+  width: 80%;
+  margin: 40px auto;
+}
+
+.livro {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+.livro-capa {
+  flex: 0 0 300px;
+  text-align: center;
+}
+
+.livro-capa img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.livro-preco {
+  margin: 18px 0 12px;
+  color: #7b1e3a;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.botao-comprar {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #25d366;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.botao-comprar:hover {
+  background-color: #1da851;
+}
+
+.livro-sinopse {
+  flex: 1;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.livro-sinopse h2 {
+  margin-top: 0;
+  color: #7b1e3a;
+}
